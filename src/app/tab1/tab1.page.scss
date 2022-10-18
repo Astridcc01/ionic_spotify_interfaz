@@ -1,0 +1,78 @@
+ion-content{
+    --background: rgb(202,68,3) !important;
+    --background: linear-gradient(180deg, rgba(202,68,3,1) 0%, rgba(67,31,1,1) 100%) !important;
+    }
+    
+    ion-toolbar{
+        --background: transparent;
+        --color: white;
+    }
+    
+    ion-header{
+        position: static !important;
+    }
+    
+    #maintitle{
+        font-size: 0.5rem;
+        font-family: 'gothamB';
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .centrado{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #caratula{
+        width: 100% !important;
+    }
+    
+    #principal{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+    
+    #principal ion-col{
+        padding: 0px !important;
+    }
+    
+    .spaceb{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 4.5rem;
+    }
+    
+    .spaceb1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #container{
+        color: white;
+        padding-top: 2rem;
+    }
+    
+    .titulocan{
+        font-family: 'Gotham Bold';
+    }
+    
+    .autor{
+        font-family: 'Gotham Light';
+       height: 2rem;
+    }
+    
+    #container ion-note{
+        font-family: 'Gotham Thin';
+        font-size: 0.6rem;
+        color: white;
+    }
+    
+    ion-fab-button{
+        --background: white !important;
+        --color: #592501 !important;
+    }

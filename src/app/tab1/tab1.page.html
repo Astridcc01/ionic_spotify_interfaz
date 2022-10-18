@@ -1,0 +1,87 @@
+<ion-header [translucent]="true">
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col class="centrado" size-xs="12" size-sm="12" size-md="6" size-lg="6" size-xl="6"><ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-button>
+          <ion-icon name="chevron-down"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons slot="end">
+        <ion-button>
+          <ion-icon name="ellipsis-vertical"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title id="maintitle" class="ion-text-uppercase ion-text-center">
+      reproduciendo desde el podcast 
+      <br>
+      AM
+      </ion-title> </ion-toolbar>
+    </ion-col>
+ </ion-row>
+</ion-grid>
+
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<ion-grid id="principal">
+  <ion-row>
+    <ion-col class="centrado" size-xs="12" size-sm="12" size-md="4" size-lg="4" size-xl="4">
+      <img src="../../assets/img/spotify.PNG" alt="" id="caratula">
+    </ion-col>
+
+  </ion-row>
+  <ion-row><ion-col class="centrado" size-xs="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
+
+    <div id="container">
+      <div>
+        <span class="titulocan">
+          "De acuerdo" AM 25 de Marzo
+        </span>
+      </div>
+      <div class="autor">
+        <span >AM</span>
+      </div>
+      <div class="spaceb1">
+        <ion-progress-bar color="dark" value="0.5"></ion-progress-bar>
+      </div>
+      <div class="spaceb1">
+        <ion-note>1:34</ion-note>
+        <ion-note>3:20</ion-note>
+      </div>
+      <div class="spaceb">
+        <div>
+          <ion-icon name="information"></ion-icon>
+        </div>
+        <div>
+          <ion-icon name="play-back"></ion-icon>
+        </div>
+        <div> 
+          <ion-fab-button >
+            <ion-icon name="play"></ion-icon>
+          </ion-fab-button>
+        </div>
+        <div>
+          <ion-icon name="play-forward"></ion-icon>
+        </div>
+        <div>
+          <ion-icon name="moon"></ion-icon>
+        </div>
+      </div>
+      <div class="spaceb">
+        <div>
+          <ion-icon name="desktop"></ion-icon>
+        </div>
+        <div>
+          <ion-icon name="share"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+  </ion-col></ion-row>
+</ion-grid>
+
+</ion-content>
